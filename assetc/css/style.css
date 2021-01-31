@@ -309,6 +309,139 @@ textarea.textarea {
     height: 110px;
     padding: 15px;
 }
-.name:focus{
+.name,.subject,.textarea,.btn-submit:focus{
+    outline: none;
+}
+button.btn-submit {
+    display: flex;
+    margin: auto;
+    padding: 11px 50px;
+    font-size: 17px;
     border: none;
+}
+.btn-submit:hover{
+    background: #000;
+    color: #fff;
+    transition: .5s;
+    border: solid 1px #fff;
+}
+
+section#footer {
+    background: #020202;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    border-top: solid 1px;
+    font-family: monospace;
+}
+.menu ul li:last-child {
+    border: navajowhite;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 19px;
+}
+
+.footer ul li a i {
+    width: 17px;
+    border: solid 1px #dddddd73;
+    height: 18px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 50%;
+    padding: 9px;
+}
+.footer ul li a i:hover {
+    color: #000;
+    background:#ddd;
+    transition:.5s;
+    transform: translateY(-15px);
+}
+.teammember {
+    text-align: center;
+    font-size: 25px;
+    color: #000000ba;
+    border-bottom: solid 1px;
+    width: 30%;
+    margin: auto;
+    font-family: serif;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.card5 {
+    box-shadow: 0 4px 13px 19px rgb(0 0 0 / 20%);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    width: 33%;
+    float: left;
+  }
+  
+.few-naeem {
+    width: 57%;
+    float: left;
+    padding: 30px;
+}
+.few_word_head {
+    text-align: center;
+    font-size: 25px;
+    color: tomato;
+    padding: 50px;
+    margin: auto;
+    font-family: arial black;
+}
+.few_word_dte_head {
+    color: tomato;
+    padding: 20px 20px;
+    width: 600px;
+    text-align: center;
+}
+.few_word_dte {
+    padding: 20px 20px;
+    font-family: cursive;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    color: #ddd9;
+}
+.abt-btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .card5 img {
+    height: 250px;
+}
+
+.card5 h1 {
+    color: #fff;
+    padding: 10px;
+}
+p.card-title {
+    font-size: 17px;
+    color: #ddddddba;
+    margin-bottom: 5px;
+}
+.card5 i {
+    color: #ff500f;
+    padding: 9px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+}
+
+.card5 i:hover {
+    background: #000;
+    color: #fff;
+    transition: .5s;
 }
