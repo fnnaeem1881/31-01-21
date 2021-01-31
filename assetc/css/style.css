@@ -266,3 +266,49 @@ section#gallary {
 .gallary-content {
     margin-top: 30px;
 }
+.contact-map {
+    width: 48%;
+    float: left;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 350px;
+}
+
+.contact-wrap {
+    overflow: hidden;
+    margin-top: 65px;
+}
+.contact-input {
+    width: 48%;
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+}
+input.name {
+    width: 90%;
+    padding: 15px;
+    overflow: hidden!important;
+    border: solid 2px #ddd;
+    margin-bottom: 15px;
+}
+
+form.form {
+    overflow: hidden;
+}
+input.subject {
+    width: 40%;
+    float: left;
+    padding: 16px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+}
+textarea.textarea {
+    width: 90%;
+    height: 110px;
+    padding: 15px;
+}
+.name:focus{
+    border: none;
+}
